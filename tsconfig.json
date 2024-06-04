@@ -36,6 +36,9 @@
       ],
       "@store/*": [
         "./src/store/*"
+      ],
+      "@storybook/*": [
+        "./stories/*"
       ]
     },
     "target": "ES2017"
