@@ -29,6 +29,12 @@
     top: 90px;
     right: 10px;
 
+    @media (min-width: 768px) {
+        flex-direction: row;
+        width: initial;
+        top: initial;
+    }
+
     .value {
         font-size: 15px;
         background-color: transparent;
