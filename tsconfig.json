@@ -22,24 +22,13 @@
       }
     ],
     "paths": {
-      "@assets/*": [
-        "./public/assets/*"
-      ],
-      "@components/*": [
-        "./src/components/*"
-      ],
-      "@hooks/*": [
-        "./src/hooks/*"
-      ],
-      "@data/*": [
-        "./src/data/*"
-      ],
-      "@store/*": [
-        "./src/store/*"
-      ],
-      "@storybook/*": [
-        "./stories/*"
-      ]
+      "@assets/*": ["./public/assets/*"],
+      "@types/*": ["./src/types/*"],
+      "@components/*": ["./src/components/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@data/*": ["./src/data/*"],
+      "@store/*": ["./src/store/*"],
+      "@storybook/*": ["./stories/*"]
     },
     "target": "ES2017"
   },
