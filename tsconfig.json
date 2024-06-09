@@ -28,7 +28,7 @@
       "@hooks/*": ["./src/hooks/*"],
       "@data/*": ["./src/data/*"],
       "@store/*": ["./src/store/*"],
-      "@storybook/*": ["./stories/*"]
+      "@storybook/*": ["./src/stories/*"],
     },
     "target": "ES2017"
   },

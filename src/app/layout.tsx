@@ -3,14 +3,14 @@ import type { Metadata } from 'next'
 
 import './globals.css'
 import { Inter } from '@assets/fonts'
-import { Header } from '../stories'
+import { Header } from '@storybook/components'
 
 export const metadata: Metadata = {
   title: 'Sergio González Sánchez',
   description: 'Frontend Developer',
   applicationName: 'Sergio González Sánchez',
   icons: {
-    icon: '/images/favicon.svg',
+    icon: '/assets/images/favicon.svg',
   },
 }
 

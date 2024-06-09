@@ -1,7 +1,4 @@
-// @ts-ignore
-import { RoutesPageProps } from "@types";
-
-export const pages: RoutesPageProps[] = [
+export const pages = [
   {
     name: 'Home',
     url: '/',
@@ -18,4 +15,4 @@ export const pages: RoutesPageProps[] = [
     name: 'Blog',
     url: '/blog',
   },
-];
+]
