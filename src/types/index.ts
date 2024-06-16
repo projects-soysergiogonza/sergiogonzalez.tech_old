@@ -1,4 +1,4 @@
 export interface RoutesPageProps {
-  name: string,
-  url: string,
+	name: string;
+	url: string;
 }
