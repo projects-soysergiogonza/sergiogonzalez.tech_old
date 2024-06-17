@@ -14,16 +14,12 @@
     "enabled": true,
     "rules": {
       "recommended": false,
-      "correctness": {
-        "noUnusedVariables": { "level": "warn", "fix": "safe" }
-      },
       "style": {
         "noShoutyConstants": "warn",
         "useConst": { "level": "warn", "fix": "unsafe" },
         "useNamingConvention": "error",
         "useTemplate": { "level": "warn", "fix": "safe" }
-      },
-      "suspicious": { "noConsoleLog": "info", "noDebugger": "off" }
+      }
     }
   },
   "javascript": {
@@ -39,18 +35,5 @@
       "attributePosition": "auto"
     }
   },
-  "json": { "formatter": { "trailingCommas": "none" } },
-  "overrides": [
-    {
-      "include": [
-        "*.stories.@(ts|tsx|js|jsx|mjs|cjs)",
-        "*.story.@(ts|tsx|js|jsx|mjs|cjs)"
-      ],
-      "linter": { "rules": { "correctness": { "useHookAtTopLevel": "off" } } }
-    },
-    {
-      "include": [".storybook/main.@(js|cjs|mjs|ts)"],
-      "linter": { "rules": {} }
-    }
-  ]
+  "json": { "formatter": { "trailingCommas": "none" } }
 }
